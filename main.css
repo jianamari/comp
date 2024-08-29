@@ -45,6 +45,7 @@ body {
 
 .subheading_1 {
     grid-area: subheading_1;
+    color: b0babf;
 }
 
 .paragraph_1 {
@@ -63,6 +64,7 @@ body {
 
 .paragraph_2 {
     grid-area: paragraph_2;
+    background-color: aliceblue;
 }
 
 .subheading_3 {
@@ -71,6 +73,7 @@ body {
 
 .paragraph_3 {
     grid-area: paragraph_3;
+    background-color: aliceblue;
 }
 
 .image_2 {
@@ -83,6 +86,7 @@ body {
 
 .paragraph_4 {
     grid-area: paragraph_4;
+    background-color: aliceblue;
 }
 
 .footer {
