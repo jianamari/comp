@@ -46,12 +46,14 @@ body {
 .subheading_1 {
     grid-area: subheading_1;
     color: b0babf;
+    text-align: center;
 }
 
 .paragraph_1 {
     grid-area: paragraph_1;
     background-color: aliceblue;
     padding: 30px;
+    text-align: center;
 }
 
 .image_1 {
@@ -60,20 +62,24 @@ body {
 
 .subheading_2 {
     grid-area: subheading_2;
+    text-align: center;
 }
 
 .paragraph_2 {
     grid-area: paragraph_2;
     background-color: aliceblue;
+    text-align: center;
 }
 
 .subheading_3 {
     grid-area: subheading_3;
+    text-align: center;
 }
 
 .paragraph_3 {
     grid-area: paragraph_3;
     background-color: aliceblue;
+    text-align: center;
 }
 
 .image_2 {
@@ -82,11 +88,13 @@ body {
 
 .subheading_4 {
     grid-area: subheading_4;
+    text-align: center;
 }
 
 .paragraph_4 {
     grid-area: paragraph_4;
     background-color: aliceblue;
+    text-align: center;
 }
 
 .footer {
