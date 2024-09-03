@@ -24,6 +24,7 @@ body {
 .navbar {
     grid-area: navbar;
     background-color: #253759;
+    color: aliceblue;
 }
 
 .navbar ul {
@@ -45,6 +46,7 @@ body {
 
 .subheading_1 {
     grid-area: subheading_1;
+    background-color: ;
     color: b0babf;
     text-align: center;
 }
