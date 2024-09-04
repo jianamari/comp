@@ -1,5 +1,5 @@
 body {
-    background-color: #c0d9d9;
+    background-color: #fcfcfc;
 }
 
 
@@ -19,12 +19,12 @@ body {
     "subheading_4 subheading_4"
     "paragraph_4 paragraph_4"
     "footer footer";
+    margin: 10%;
 }
 
 .navbar {
     grid-area: navbar;
-    background-color: #253759;
-    color: aliceblue;
+    background-color: #03045e;
 }
 
 .navbar ul {
@@ -34,6 +34,7 @@ body {
 .navbar li{
     display: inline;
     padding: 30px;
+    color: #fcfcfc;
 }
 
 /*.navbar a {
@@ -42,18 +43,20 @@ body {
 
 .heading_1 {
     grid-area: heading_1;
+    color: #0077b6;
+    padding: 20px;
 }
 
 .subheading_1 {
     grid-area: subheading_1;
-    background-color: ;
-    color: b0babf;
+    padding: 10px;
+    background-color: #90e0ef;
     text-align: center;
 }
 
 .paragraph_1 {
     grid-area: paragraph_1;
-    background-color: aliceblue;
+    background-color: #caf0f8;
     padding: 30px;
     text-align: center;
 }
@@ -65,23 +68,28 @@ body {
 .subheading_2 {
     grid-area: subheading_2;
     text-align: center;
+    background-color: #caf0f8;
+    padding: 10px;
 }
 
 .paragraph_2 {
     grid-area: paragraph_2;
     background-color: aliceblue;
     text-align: center;
+    padding: 20px;
 }
 
 .subheading_3 {
     grid-area: subheading_3;
     text-align: center;
+    padding: 20px;
 }
 
 .paragraph_3 {
     grid-area: paragraph_3;
     background-color: aliceblue;
     text-align: center;
+    padding: 20px;
 }
 
 .image_2 {
@@ -91,14 +99,19 @@ body {
 .subheading_4 {
     grid-area: subheading_4;
     text-align: center;
+    padding: 20px;
 }
 
 .paragraph_4 {
     grid-area: paragraph_4;
     background-color: aliceblue;
     text-align: center;
+    padding: 20px;
 }
 
 .footer {
     grid-area: footer;
+    padding: 20px;
+    background-color: #03045e;
+    color: aliceblue;
 }
