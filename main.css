@@ -1,5 +1,5 @@
 body {
-    background-color: #fcfcfc;
+    background-color: #fdfaf7  ;
 }
 
 
@@ -10,21 +10,21 @@ body {
     grid-template-areas: 
     "navbar navbar"
     "heading_1 heading_1"
-    "subheading_1 subheading_1"
+    "subheading_1 image_1 "
     "paragraph_1 image_1"
-    "subheading_2 subheading_2"
-    "paragraph_2 paragraph_2"
-    "subheading_3 subheading_3"
+    "subheading_2 image_1"
+    "paragraph_2 image_1"
+    "subheading_3 image_2"
     "paragraph_3 image_2"
-    "subheading_4 subheading_4"
-    "paragraph_4 paragraph_4"
+    "subheading_4 image_2"
+    "paragraph_4 image_2"
     "footer footer";
     margin: 10%;
 }
 
 .navbar {
     grid-area: navbar;
-    background-color: #03045e;
+    background-color: #3a74c5;
 }
 
 .navbar ul {
@@ -34,29 +34,31 @@ body {
 .navbar li{
     display: inline;
     padding: 30px;
-    color: #fcfcfc;
+    color: #c4d5e8;
 }
 
 /*.navbar a {
     padding:20px
+    5a7d9c 
 }*/
 
 .heading_1 {
     grid-area: heading_1;
-    color: #0077b6;
-    padding: 20px;
+    color: ##2f7cd1;
+    padding: 40px;
+    background-color: #fcfcfc;
 }
 
 .subheading_1 {
     grid-area: subheading_1;
     padding: 10px;
-    background-color: #90e0ef;
+    background-color: #fcfcfc;
     text-align: center;
 }
 
 .paragraph_1 {
     grid-area: paragraph_1;
-    background-color: #caf0f8;
+    background-color: #fcfcfc;
     padding: 30px;
     text-align: center;
 }
@@ -68,7 +70,7 @@ body {
 .subheading_2 {
     grid-area: subheading_2;
     text-align: center;
-    background-color: #caf0f8;
+    background-color: #fcfcfc;
     padding: 10px;
 }
 
