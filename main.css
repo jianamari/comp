@@ -1,5 +1,5 @@
 body {
-    background-color: #fdfaf7  ;
+    background-color: #c3ddf6;
 }
 
 
@@ -24,7 +24,7 @@ body {
 
 .navbar {
     grid-area: navbar;
-    background-color: #3a74c5;
+    background-color: #388ee1;
 }
 
 .navbar ul {
@@ -34,7 +34,7 @@ body {
 .navbar li{
     display: inline;
     padding: 30px;
-    color: #c4d5e8;
+    color: #c3ddf6;
 }
 
 /*.navbar a {
@@ -44,14 +44,15 @@ body {
 
 .heading_1 {
     grid-area: heading_1;
-    color: ##2f7cd1;
+    color: #2f7cd1;
     padding: 40px;
     background-color: #fcfcfc;
 }
 
 .subheading_1 {
     grid-area: subheading_1;
-    padding: 10px;
+    padding: 5px;
+    color: #60a5e7;
     background-color: #fcfcfc;
     text-align: center;
 }
@@ -76,39 +77,42 @@ body {
 
 .paragraph_2 {
     grid-area: paragraph_2;
-    background-color: aliceblue;
+    background-color: #fcfcfc;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
 }
 
 .subheading_3 {
     grid-area: subheading_3;
     text-align: center;
-    padding: 20px;
+    padding:10px;
+    background-color: #fcfcfc;
 }
 
 .paragraph_3 {
     grid-area: paragraph_3;
-    background-color: aliceblue;
+    background-color: #fcfcfc;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
 }
 
 .image_2 {
     grid-area: image_2;
+    
 }
 
 .subheading_4 {
     grid-area: subheading_4;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
+    background-color: #fcfcfc;
 }
 
 .paragraph_4 {
     grid-area: paragraph_4;
-    background-color: aliceblue;
+    background-color: #fcfcfc;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
 }
 
 .footer {
