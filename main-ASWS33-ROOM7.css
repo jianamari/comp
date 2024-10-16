@@ -47,7 +47,6 @@ body {
     color: #2f7cd1;
     padding: 40px;
     background-color: #fcfcfc;
-    text-align: center;  
 }
 
 .subheading_1 {
@@ -99,6 +98,7 @@ body {
 
 .image_2 {
     grid-area: image_2;
+    
 }
 
 .subheading_4 {
@@ -118,6 +118,6 @@ body {
 .footer {
     grid-area: footer;
     padding: 20px;
-    background-color: #388ee1;
-    color: #c3ddf6;
+    background-color: #03045e;
+    color: aliceblue;
 }
